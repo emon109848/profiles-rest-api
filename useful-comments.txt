@@ -1,0 +1,11 @@
+#initialing a vagrant session
+vagrant init ubuntu/bionic64
+
+#listing all branches
+git branch
+
+#creating new branch "main"
+git checkout -b main
+
+# creating a ssh key
+ssh-keygen -t rsa -b 4096 -C "emon109848@gmail.com"
