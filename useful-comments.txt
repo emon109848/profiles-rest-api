@@ -9,3 +9,9 @@ git checkout -b main
 
 # creating a ssh key
 ssh-keygen -t rsa -b 4096 -C "emon109848@gmail.com"
+
+#starting a django project
+django-admin.py startproject profiles_project .
+
+# creating new app
+python manage.py startapp profiles_api
